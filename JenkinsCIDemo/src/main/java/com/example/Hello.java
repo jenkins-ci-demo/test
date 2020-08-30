@@ -15,7 +15,7 @@ public class Hello extends HttpServlet {
     out = res.getWriter();
 
     out.println("<html><body>");
-    out.println("<h1>Hello World!</h1>");
+    out.println("<h1>Hello World! Jenkins build success!!</h1>");
     out.println("</body></html>");
   }
 }
